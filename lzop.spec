@@ -1,12 +1,13 @@
 Summary:	lzop - a file compressor which uses LZO data compression library
 Summary(pl):	lzop - kompresor plików u¿ywaj±cy biblioteki kompresji danych LZO
 Name:		lzop
-Version:	1.01
-Release:	1
-License:	GPL
+Version:	1.02
+%define	bver	rc1
+Release:	0.%{bver}.1
+License:	GPL v2+
 Group:		Applications/Archiving
-Source0:	http://www.lzop.org/download/%{name}-%{version}.tar.gz
-# Source0-md5:	de1f90bc21a0e56a27f39322f56a275d
+Source0:	http://www.lzop.org/download/%{name}-%{version}%{bver}.tar.gz
+# Source0-md5:	4b999030716b1353c3dac049b269df7a
 URL:		http://www.lzop.org/
 BuildRequires:	automake
 BuildRequires:	lzo-devel
@@ -25,10 +26,10 @@ wy¿sza szybko¶æ kompresji i dekompresji (czê¶ciowo kosztem
 wspó³czynnika kompresji).
 
 %prep
-%setup -q
+%setup -q -n %{name}-%{version}%{bver}
 
 %build
-cp -f /usr/share/automake/config.* acconfig
+cp -f /usr/share/automake/config.* autoconf
 %configure
 %{__make}
 
