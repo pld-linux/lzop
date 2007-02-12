@@ -1,5 +1,5 @@
 Summary:	lzop - a file compressor which uses LZO data compression library
-Summary(pl):	lzop - kompresor plików u¿ywaj±cy biblioteki kompresji danych LZO
+Summary(pl.UTF-8):   lzop - kompresor plikÃ³w uÅ¼ywajÄ…cy biblioteki kompresji danych LZO
 Name:		lzop
 Version:	1.02
 %define	bver	rc1
@@ -19,11 +19,11 @@ LZO data compression library for compression services, and its main
 advantages over gzip are much higher compression and decompression
 speed (at the cost of some compression ratio).
 
-%description -l pl
-lzop to kompresor plików bardzo podobny do gzipa, ale u¿ywaj±cy
-biblioteki kompresji danych LZO. G³ówn± przewag± nad gzipem jest du¿o
-wy¿sza szybko¶æ kompresji i dekompresji (czê¶ciowo kosztem
-wspó³czynnika kompresji).
+%description -l pl.UTF-8
+lzop to kompresor plikÃ³w bardzo podobny do gzipa, ale uÅ¼ywajÄ…cy
+biblioteki kompresji danych LZO. GÅ‚Ã³wnÄ… przewagÄ… nad gzipem jest duÅ¼o
+wyÅ¼sza szybkoÅ›Ä‡ kompresji i dekompresji (czÄ™Å›ciowo kosztem
+wspÃ³Å‚czynnika kompresji).
 
 %prep
 %setup -q -n %{name}-%{version}%{bver}
