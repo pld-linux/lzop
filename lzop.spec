@@ -1,5 +1,5 @@
 Summary:	lzop - a file compressor which uses LZO data compression library
-Summary(pl.UTF-8):   lzop - kompresor plików używający biblioteki kompresji danych LZO
+Summary(pl.UTF-8):	lzop - kompresor plików używający biblioteki kompresji danych LZO
 Name:		lzop
 Version:	1.02
 %define	bver	rc1
