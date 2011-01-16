@@ -2,7 +2,7 @@ Summary:	lzop - a file compressor which uses LZO data compression library
 Summary(pl.UTF-8):	lzop - kompresor plików używający biblioteki kompresji danych LZO
 Name:		lzop
 Version:	1.03
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Applications/Archiving
 Source0:	http://www.lzop.org/download/%{name}-%{version}.tar.gz
